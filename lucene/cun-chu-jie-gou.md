@@ -14,19 +14,19 @@ description: lucene文档和索引文件结构
 * 跳跃是有间隔的\(Interval\)，也即每次跳跃的元素数，间隔是事先配置好的，如图跳跃表 的间隔为 3。
 * 跳跃表是由层次的\(level\)，每一层的每隔指定间隔的元素构成上一层，如图跳跃表共有 2 层。
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 ### 倒排索引
 
 
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
     左边保存的是一系列字符串，称为词典。 每个字符串都指向包 此字符串的文档\(Document\)链表，此文档链表称为倒排表\(Posting List\)。有了索引，便使保存的信息和要搜索的信息一致，可以大大加快搜索的速度。
 
 ## 总体结构
 
-![lu&apos;ce&apos;ne&#x7D22;&#x5F15;&#x5185;&#x5206;&#x6BB5;&#x5B58;&#x50A8;&#x7684;&#x6587;&#x4EF6;&#x5217;&#x8868;&#x793A;&#x610F;&#x56FE;](../.gitbook/assets/image%20%286%29.png)
+![lu&apos;ce&apos;ne&#x7D22;&#x5F15;&#x5185;&#x5206;&#x6BB5;&#x5B58;&#x50A8;&#x7684;&#x6587;&#x4EF6;&#x5217;&#x8868;&#x793A;&#x610F;&#x56FE;](../.gitbook/assets/image%20%2816%29.png)
 
     lecene内部是分段存储的。从上到下可以分为如下几个层次：
 
@@ -38,7 +38,7 @@ description: lucene文档和索引文件结构
 
     lucene不仅仅包含了从index到segment到document到field一直到field的正向信息。 还保存了从term到document的逆向信息加速搜索。 下图展示了lucene索引文件的总体结构：
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
     属于整个索引\(Index\)的 segment.gen，segment\_N，其保存的是段\(segment\)的元数据信息，然后分多个 segment 保存数据信息，同一个 segment 有相同的前缀文件名。
 
@@ -48,7 +48,7 @@ description: lucene文档和索引文件结构
 
 ## 域信息存储结构（fdt,fdx\)
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 
 
@@ -66,7 +66,7 @@ description: lucene文档和索引文件结构
 
 ## 词向量数据信息（tvx, tvf, tvd）
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
     词向量信息是从索引\(index\)到文档\(document\)到域\(field\)到词\(term\)的正向信息，有了词向量 信息，我们就可以得到一篇文档包 那些词的信息。
 
@@ -87,7 +87,7 @@ description: lucene文档和索引文件结构
 
 ## 反向索引信息，词典（tis）和词典索引（tii）信息
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
     在词典中，所有的词是按照字典顺序排序的。 
 
@@ -111,7 +111,7 @@ description: lucene文档和索引文件结构
 
 ## 倒排列表，文档号和词频（freq）信息
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
     文档号及词频文件里面保存的是倒排表，是以跳跃表形式存在的。
 
@@ -132,7 +132,7 @@ description: lucene文档和索引文件结构
 
 ## 删除的文档信息文件（del）
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
     被删除文档文件\(Deleted Document File: .del\)
 
