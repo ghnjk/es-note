@@ -8,9 +8,9 @@ description: elasticsearch search type
 
 ## 分布式索索
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 ##  **query\_then\_fetch**
 
@@ -42,5 +42,5 @@ count（计数） 搜索类型只有一个 query（查询） 的阶段。当不�
 scan（扫描） 搜索类型是和 scroll（滚屏） API连在一起使用的，可以高效地取回巨大数量的结 果。它是通过禁用排序来实现的。  
 
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 

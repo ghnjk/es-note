@@ -2,6 +2,17 @@
 
 ## elasticsearch学习参考资料
 
+* elastic 官方博客 [https://www.elastic.co/blog](https://www.elastic.co/blog)
+* [https://logz.io/blog/](https://logz.io/blog/) 以色列公司提供的日志管理，分析服务。主要有一些ELK云应用， DevOp等方面的博文
+* **Reddit Elastic** [**https://www.reddit.com/r/elasticsearch**](https://www.reddit.com/r/elasticsearch) **基于lucene的开源搜索引擎讨论**
+* **elastic 中文社区** [**https://elasticsearch.cn/**](https://elasticsearch.cn/)\*\*\*\*
+
+## 推荐的几个ES博客网站
+
+
+
+
+
 ### ES一致性相关博客，指出了现有ES一致性算法的缺陷
 
 [https://zhuanlan.zhihu.com/p/34858035](https://zhuanlan.zhihu.com/p/34858035)  
@@ -54,6 +65,10 @@
 
 ### 推荐可以在ES官网的learn页面进行检索内容，里面的文章比较权威
 
-[https://www.elastic.co/learn](https://www.elastic.co/learn)  
+[https://www.elastic.co/learn](https://www.elastic.co/learn)
+
+
+
+  
 
 

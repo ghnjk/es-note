@@ -2,6 +2,8 @@
 
 * [elasticsearch学习笔记](README.md)
 * [lucene](lucene/README.md)
+  * [倒排索引存储压缩与查询优化](lucene/dao-pai-suo-yin-cun-chu-ya-suo-yu-cha-xun-you-hua.md)
+  * [lucene中数字类型索引与范围查询原理](lucene/lucene-zhong-shu-zi-lei-xing-suo-yin-yu-fan-wei-cha-xun-yuan-li.md)
   * [存储结构](lucene/cun-chu-jie-gou.md)
 * [elasticsearch](elasticsearch/README.md)
   * [数据一致性问题](elasticsearch/shu-ju-yi-zhi-xing-wen-ti.md)
