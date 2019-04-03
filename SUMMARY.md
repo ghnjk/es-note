@@ -12,4 +12,6 @@
   * [ES类型实现](elasticsearch/es-lei-xing-shi-xian.md)
   * [ES数据持久化与查询可见性](elasticsearch/es-shu-ju-chi-jiu-hua-yu-cha-xun-ke-jian-xing.md)
   * [段合并与历史日志存储优化](elasticsearch/duan-he-bing-yu-li-shi-ri-zhi-cun-chu-you-hua.md)
-
+* [elasticsearch源码阅读笔记](es6.4.3-source_code/README.md)
+  * [01_prepare.md](es6.4.3-source_code/01_prepare.md)
+  * [02_overview.md](es6.4.3-source_code/02_overview.md)
