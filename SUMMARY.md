@@ -15,3 +15,6 @@
 * [elasticsearch源码阅读笔记](es6.4.3-source_code/README.md)
   * [01_prepare.md](es6.4.3-source_code/01_prepare.md)
   * [02_overview.md](es6.4.3-source_code/02_overview.md)
+  * [03_boostrap_es.md](es6.4.3-source_code/03_boostrap_es.md)
+  * [04_elasticsearch_guice.md](es6.4.3-source_code/04_elasticsearch_guice.md)
+

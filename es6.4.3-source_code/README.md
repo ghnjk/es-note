@@ -8,4 +8,4 @@
 - [elasticsearch单节点启动喝关闭](http://laijianfeng.org/2019/01/Elasticsearch%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-%E5%8D%95%E8%8A%82%E7%82%B9%E7%9A%84%E5%90%AF%E5%8A%A8%E5%92%8C%E5%85%B3%E9%97%AD/)
 - [elasticsearch启动过程](https://juejin.im/post/5a2b653f5188251c11408b22)
 - [elasticsearch源码运行调试问题](https://www.jianshu.com/p/41d949746e62)
-
+- [Elasticsearch 6.3.2 启动过程](http://laijianfeng.org/2018/09/Elasticsearch-6-3-2-%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B/)
